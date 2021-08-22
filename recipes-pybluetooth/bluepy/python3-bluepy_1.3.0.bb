@@ -12,4 +12,4 @@ inherit setuptools3
 
 DEPENDS = "glib-2.0"
 
-RPROVIDES_${PN} += "arp-scan"
+RPROVIDES_${PN} += "python3-bluepy"
