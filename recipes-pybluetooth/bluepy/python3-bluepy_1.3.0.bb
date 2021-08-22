@@ -11,5 +11,6 @@ S = "${WORKDIR}/git"
 inherit setuptools3
 
 DEPENDS = "glib-2.0 python3-setuptools-native"
+INSANE_SKIP_${PN} = "ldflags"
 
 RPROVIDES_${PN} += "python3-bluepy"
