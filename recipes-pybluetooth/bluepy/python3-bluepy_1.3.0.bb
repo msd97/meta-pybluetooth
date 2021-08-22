@@ -13,6 +13,7 @@ inherit setuptools3
 DEPENDS = "glib-2.0 python3-setuptools-native"
 
 # Required to prevent NO GNU_HASH package QA error
-INSANE_SKIP_${PN} = "ldflags"
+TARGET_CC_ARCH += "${LDFLAGS}"
+# INSANE_SKIP_${PN} = "ldflags"
 
 RPROVIDES_${PN} += "python3-bluepy"
