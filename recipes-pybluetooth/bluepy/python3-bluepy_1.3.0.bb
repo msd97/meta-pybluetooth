@@ -10,6 +10,6 @@ S = "${WORKDIR}/git"
 
 inherit setuptools3
 
-DEPENDS = "glib-2.0"
+DEPENDS = "glib-2.0 python3-setuptools-native"
 
 RPROVIDES_${PN} += "python3-bluepy"
