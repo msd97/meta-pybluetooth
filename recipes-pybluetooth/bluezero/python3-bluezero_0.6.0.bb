@@ -4,7 +4,7 @@ LIC_FILES_CHKSUM = "file://LICENSE.txt;md5=66f12994d9f609ef52171aaa0bd371a9"
 
 SRC_URI = "git://github.com/ukBaz/python-bluezero"
 
-SRCREV = "392a115ace80a6d7257b76708ec24b99ec9e2e5d"
+SRCREV = "3197269173f63d80bc0cf380da88709bc39bdc19"
 
 S = "${WORKDIR}/git"
 
