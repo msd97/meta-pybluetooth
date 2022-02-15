@@ -4,7 +4,7 @@ LIC_FILES_CHKSUM = "file://LICENSE.txt;md5=59e0d45ea684dda215889aa1b5acd001"
 
 SRC_URI = "git://github.com/camm73/bluepy"
 
-SRCREV = "67dbbaab000cacb32b421894acf4e941a076ba68"
+SRCREV = "23e0928365b5d7b685a29dc21ab1bd7436a446bb"
 
 S = "${WORKDIR}/git"
 
