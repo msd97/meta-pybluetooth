@@ -11,4 +11,4 @@ inherit pypi setuptools3
 
 DEPENDS = "python3-dbus glib-2.0 python3-setuptools-native"
 
-RPROVIDES_${PN} += "python3-bluezero"
+RPROVIDES:${PN} += "python3-bluezero"
